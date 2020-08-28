@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./src/jquery.js"></script>
+    <link rel="stylesheet" href="./src/iconfont/iconfont.css">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="header-left">
+            <div class="logo"><img src="./src/img/logo.png"></div>
+            <div class="require">
+                导入
+            </div>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li>
+                    <div class="to-left"><a href="#"><span class="icon iconfont">&#xe602;</span></a></div>
+                </li>
+                <li>
+                    <div class="to-right"><a href="#"><span class="icon iconfont">&#xe765;</span></a></div>
+                </li>
+                <li><a href="#">退出编辑</a></li>
+                <li><a href="#">保存</a></li>
+                <li><a href="#">下载图片</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div class="nav-left">
+            <ul>
+                <li><a href="#">全局换图</a></li>
+                <li><a href="#">添加图片</a></li>
+                <li><a href="#">图片模块</a></li>
+                <li><a href="#">文字模块</a></li>
+                <li><a style="padding: 13px 10px;" href="#">设计师模块</a></li>
+            </ul>
+        </div>
+        <div class="content-mid">
+            <div class="top"><img src="./src/img/adver.png" alt=""></div>
+            <div class="main-content">
+                <div class="title"><img src="./src/img/title.png" alt=""></div>
+            </div>
+            <!-- 拖拽区 -->
+            <div class="app">
+                <img id="target" src="./src/img/target.png" alt="">
+            </div>
+
+            <div class="nav-right">
+                <div class="edit-left common-bg">
+                    <ul>
+                        <li class="set"><span title="设置"><span style="color: #3089DC;" class="icon iconfont">&#xe766;</span></span>
+                        </li>
+                        <li><span title="上移"><span class="icon iconfont">&#xe79d;</span></span>
+                        </li>
+                        <li><span title="下移"><span class="icon iconfont">&#xe689;</span></span>
+                        </li>
+                        <li class="copy"><span title="复制"><span class="icon iconfont">&#xe632;</span></span>
+                        </li>
+                        <li class="delete"><span title="删除"><span class="icon iconfont">&#xe614;</span></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="edit-right common-bg">
+                    <h4 class="edit-title">属性编辑</h4>
+                    <div class="edit-content">
+                        <div class="sec">
+                            <div class="add">
+                                <div class="add-title">添加图片</div><span class="icon iconfont">&#xe61e;</span><span class="icon iconfont">&#xe636;</span></div>
+                            <div class="line"></div>
+                            <div class="auto">
+                                <div class="auto-title">居中元素</div>
+                                <div><span class="icon iconfont">&#xe619;</span></div>
+                            </div>
+                        </div>
+                        <p>替换图片</p>
+                        <div class="raduis">
+                            <div>宽： <input class="w" type="text"> px</div>
+                            <div>高： <input class="h" type="text"> px</div>
+                            <div class="xy">
+                                <div>x: <input class="x" type="text"> px</div>
+                                <div>y: <input class="y" type="text"> px</div>
+                            </div>
+                        </div>
+                        <div class="module">
+                            <h4>模块设计</h4>
+                            <div class="module-content">
+                                <div>模块高度 <input type="text" value="606"> px</div>
+                                <div>模块背景<input type="text"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>

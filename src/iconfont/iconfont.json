@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "695134",
+      "name": "复制",
+      "font_class": "fuzhi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "818016",
+      "name": "左箭头",
+      "font_class": "sdf",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1621077",
+      "name": "Aa",
+      "font_class": "Aa",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "2217556",
+      "name": "右箭头",
+      "font_class": "arrow-right",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "4425835",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e79d",
+      "unicode_decimal": 59293
+    },
+    {
+      "icon_id": "6049692",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "7550206",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "10292039",
+      "name": "删 除",
+      "font_class": "shanchu",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "11976280",
+      "name": "居中",
+      "font_class": "juzhong",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "16584491",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    }
+  ]
+}
